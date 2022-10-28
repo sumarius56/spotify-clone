@@ -40,30 +40,30 @@ function Sidebar() {
           <p>Logout</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white ">
-          <HomeIcon className="h-5 w-5" />
+          <HomeIcon className="h-5 w-5 text-green-500" />
           <p onClick={() => router.push("/")}>Home</p>
         </button>
-        {/* <button className="flex items-center space-x-2 hover:text-white ">
-          <SearchIcon className="h-5 w-5" />  
+        <button className="flex items-center space-x-2 hover:text-white ">
+          <SearchIcon className="h-5 w-5 text-white" />
           <p>Search</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white ">
-          <LibraryIcon className="h-5 w-5" />
+          <LibraryIcon className="h-5 w-5 text-purple-500" />
           <p>Library</p>
         </button>
         <hr className="border-t-[0.1px] border-gray-900" />
         <button className="flex items-center space-x-2 hover:text-white ">
-          <PlusCircleIcon className="h-5 w-5" />
+          <PlusCircleIcon className="h-5 w-5 text-orange-500" />
           <p>Create Playlist</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white ">
-          <HeartIcon className="h-5 w-5" />
+          <HeartIcon className="h-5 w-5 text-red-600" />
           <p>Liked Songs</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white ">
-          <RssIcon className="h-5 w-5" />
+          <RssIcon className="h-5 w-5 text-blue-500" />
           <p>Your episodes</p>
-        </button> */}
+        </button>
         <hr className="border-t-[0.1px] border-gray-900" />
 
         {playlists.map((playlist) => (
