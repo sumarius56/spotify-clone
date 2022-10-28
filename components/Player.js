@@ -102,7 +102,7 @@ function Player() {
             spotifyApi.setShuffle(true);
             setIsClicked(!isClicked);
           }}
-          className={isClicked ? "button" : "button text-green-500"}
+          className={!isClicked ? "button" : "button text-green-500"}
         />
 
         {/* <RewindIcon
@@ -120,7 +120,7 @@ function Player() {
           className="button"    
         /> */}
         <ReplyIcon
-          className={isClicked2 ? "button" : "button text-green-500"}
+          className={!isClicked2 ? "button" : "button text-green-500"}
           //Repeat spotify mode
           onClick={() => {
             spotifyApi.setRepeat("track");
